@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #F0F2F5;
+}
+.header {
+ background: rgb(59, 89, 152) ;
+ padding: 8px 0;
+ 
+}
+.header::after{
+    content:'' ;
+    clear: both;
+    display: block;
+}
+.container{
+     width: 65%;
+     margin: auto;
+     max-width: 1000px;
+}
+.login-area{
+width: 70%;
+float: left;
+color: white;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.logo-area img{
+    width: 160px ;
+    margin-top: 20px ;
+
+}
+.login-area form{
+    float: right;
+}
+.login-area label ,
+ .login-area input {
+    display: block;
+}
+.login-area label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login {
+    float: left;
+    margin-right: 15px;
+}
+.login-area .login {
+   
+    margin-right: 0;
+}
+.login-area input[type="text"],
+.login-area input[type="password"] {
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 2px 5px;
+}
+.login-area .password a{
+    text-decoration: none;
+    color: #9cb4d8;
+    font-size: 12px;
+}
+.login-area .password a:hover{
+    text-decoration: underline;
+}
+.login-area input[type="submit"]{
+    background-color: #4267b2; 
+    border:1px solid #29487d;
+    color: #fff ;
+    padding:3px 8px ;
+    margin-top: 22px;
+
+}
+
+
+
+
+.facebook-login-area {
+    margin-top: 6%;
+}
+
+
+
+.login-form form {
+    text-align: center;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login-form input {
+	border-radius: 7px;
+	padding: 25px 16px;
+    border: 1px solid #dddfe2;
+}
+
+
+.login-form input[placeholder] {
+    font-size: 17px;
+    font-weight: normal;
+    color: #C3C6CA;
+    
+
+}
+
+.login-form .btn-primary {
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-form .btn-warning {
+    background: #36A420;
+    border: 1px solid #36A420;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 7px;
+    text-transform: capitalize;
+}
+
+.login-form a {
+	font-size: 15px;
+	text-align: center;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+
+
+.modal h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0;
+   
+}
+
+.modal .modal-title p{
+    color: #606770;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+   
+}
+
+.modal .dob{
+    color: #606770;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+    
+}
+
+.modal p> input{
+     float: right;
+    
+}
+.modal-content{
+	width:80% !important;
+}
+
+.modal p.footer{
+     color: #777;
+    font-size: 10px;
+    
+}
+.modal p.footer>a{
+     color: #385898;
+    text-decoration: none;
+    
+}
+.modal .btn-success {
+	padding: 4px 60px;
+	background: #42B72A;
+	border: 1px solid #42B72A;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.modal input.form-control{
+    background: #F5F6F7;
+}
+
+.s{
+    color: green;
+    font-size: 25px;
+}
+
+
+
+
+
+.footer-area{
+   padding: 30px 0 ; 
+}
+
+.footer-area ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-area ul li{
+    display: inline;
+    font-size: small;
+  
+}
+.middle{
+    font-size: 17px;
+    
+}
+.footer-area ul li a{
+  text-decoration: none;
+  color: #365899;
+}
+.footer-area ul li.active a{
+   
+    color: #737373;
+  }
+ 
+  .footer-area .top ul li{
+      margin-right: 5px ;
+  }
+  .footer-area .middle ul li{
+    margin-right: 2px ;
+}
+.footer-area .top ul li:last-child a{
+    border: 1px solid #999;
+    padding: 0 6px;
+    font-size: 12px;
+}
+
+.footer-area .top ul li:last-child,
+.footer-area .bottom ul li:last-child
+{
+    margin-right: 0 ;
+}
+
+.footer-area .bottom{
+    margin-top: 20px;
+}
+  .footer-area span {
+    font-size: 13px;
+     color: #737373;
+   }
+.footer-area hr{
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+
+
+@media screen and (max-width: 980px) {
+    .logo-area{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .login-area{
+        width: 405px;
+        float: none;
+        margin: 15px auto;
+       
+        }
+        .login-area form{
+            float: none;
+        }
+}
+@media screen and (max-width: 768px){
+    .login-area{
+        width: 100%;
+    } 
+     .login-area .email,
+.login-area .password,
+.login-area .login {
+    float: none;
+    margin-right: 0;
+}
+.login-area input[type="text"],
+.login-area input[type="password"] {
+   width: 100%;
+   box-sizing: border-box;
+}
+.login-area input[type="submit"]{
+  margin-top: 10px;
+}
+
+.login-form form {
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+    padding: 8px;
+}
+.login-form input[placeholder] {
+    font-size: 13px;
+}
+.modal .btn-success {
+	padding: 2px 30px;
+	background: #42B72A;
+	border: 1px solid #42B72A;
+	font-weight: normal;
+	font-size: 12px;
+}
+.s{
+    color: green;
+    font-size: 15px;
+}
+
+.form-control {
+    font-size: 15px;
+    color:red;
+}
+.login-form input[placeholder] {
+    font-size: 15px;
+}
+.login-form .btn-primary {
+   
+   
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 15px;
+    
+}
+
+.login-form .btn-warning {
+    
+    font-size: 15px;
+   
+    padding: 8px 10px;
+    border-radius: 5px;
+  
+}
+
+.login-form a {
+	font-size: 15px;
+	
+	margin-top: 10px;
+	
+}
+
+}
+@media screen and (max-width: 480px){
+    .container{
+        width: 80%;
+      
+   }
+   
+.login-form form {
+    text-align: center;
+    width: 90%;
+    border-radius: 2px;
+    padding: 5px;
+}
+.modal .btn-success {
+	padding: 2px 30px;
+	background: #42B72A;
+	border: 1px solid #42B72A;
+	font-weight: normal;
+	font-size: 12px;
+}
+.s{
+    color: green;
+    font-size: 15px;
+}
+.form-control {
+    font-size: 5px;
+    color:red;
+}
+.login-form input[placeholder] {
+    font-size: 10px;
+}
+.login-form .btn-primary {
+   
+   
+    border-radius: 5px;
+    padding: 6px 8px;
+    font-size: 10px;
+    
+}
+
+.login-form .btn-warning {
+    
+    font-size: 10px;
+   
+    padding: 6px 8px;
+    border-radius: 5px;
+  
+}
+
+.login-form a {
+	font-size: 12px;
+	
+	margin-top: 10px;
+	
+}
+
+
+}
